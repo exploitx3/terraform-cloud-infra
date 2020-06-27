@@ -23,6 +23,6 @@ resource "aws_dynamodb_table" "tfc_example_table" {
   }
 
   tags = {
-    user_name = test_name
+    user_name = "test_name"
   }
 }
